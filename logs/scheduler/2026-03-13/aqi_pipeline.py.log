@@ -1538,3 +1538,73 @@
 [2026-03-13T04:51:50.566+0000] {logging_mixin.py:188} INFO - [2026-03-13T04:51:50.565+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2026-03-13T04:51:50.598+0000] {logging_mixin.py:188} INFO - [2026-03-13T04:51:50.598+0000] {dag.py:3823} INFO - Setting next_dagrun for aqi_data_pipeline to 2026-03-13 04:00:00+00:00, run_after=2026-03-13 05:00:00+00:00
 [2026-03-13T04:51:50.623+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/aqi_pipeline.py took 0.138 seconds
+[2026-03-13T04:52:20.780+0000] {processor.py:161} INFO - Started process (PID=1297) to work on /opt/airflow/dags/aqi_pipeline.py
+[2026-03-13T04:52:20.781+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/aqi_pipeline.py for tasks to queue
+[2026-03-13T04:52:20.783+0000] {logging_mixin.py:188} INFO - [2026-03-13T04:52:20.782+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/aqi_pipeline.py
+[2026-03-13T04:52:20.823+0000] {processor.py:840} INFO - DAG(s) 'aqi_data_pipeline' retrieved from /opt/airflow/dags/aqi_pipeline.py
+[2026-03-13T04:52:20.849+0000] {logging_mixin.py:188} INFO - [2026-03-13T04:52:20.849+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-13T04:52:20.874+0000] {logging_mixin.py:188} INFO - [2026-03-13T04:52:20.874+0000] {dag.py:3823} INFO - Setting next_dagrun for aqi_data_pipeline to 2026-03-13 04:00:00+00:00, run_after=2026-03-13 05:00:00+00:00
+[2026-03-13T04:52:20.895+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/aqi_pipeline.py took 0.120 seconds
+[2026-03-13T04:52:51.734+0000] {processor.py:161} INFO - Started process (PID=1302) to work on /opt/airflow/dags/aqi_pipeline.py
+[2026-03-13T04:52:51.736+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/aqi_pipeline.py for tasks to queue
+[2026-03-13T04:52:51.737+0000] {logging_mixin.py:188} INFO - [2026-03-13T04:52:51.737+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/aqi_pipeline.py
+[2026-03-13T04:52:51.778+0000] {processor.py:840} INFO - DAG(s) 'aqi_data_pipeline' retrieved from /opt/airflow/dags/aqi_pipeline.py
+[2026-03-13T04:52:51.809+0000] {logging_mixin.py:188} INFO - [2026-03-13T04:52:51.809+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-13T04:52:51.836+0000] {logging_mixin.py:188} INFO - [2026-03-13T04:52:51.836+0000] {dag.py:3823} INFO - Setting next_dagrun for aqi_data_pipeline to 2026-03-13 04:00:00+00:00, run_after=2026-03-13 05:00:00+00:00
+[2026-03-13T04:52:51.861+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/aqi_pipeline.py took 0.131 seconds
+[2026-03-13T04:53:22.498+0000] {processor.py:161} INFO - Started process (PID=1307) to work on /opt/airflow/dags/aqi_pipeline.py
+[2026-03-13T04:53:22.499+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/aqi_pipeline.py for tasks to queue
+[2026-03-13T04:53:22.500+0000] {logging_mixin.py:188} INFO - [2026-03-13T04:53:22.500+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/aqi_pipeline.py
+[2026-03-13T04:53:22.534+0000] {processor.py:840} INFO - DAG(s) 'aqi_data_pipeline' retrieved from /opt/airflow/dags/aqi_pipeline.py
+[2026-03-13T04:53:22.562+0000] {logging_mixin.py:188} INFO - [2026-03-13T04:53:22.561+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-13T04:53:22.586+0000] {logging_mixin.py:188} INFO - [2026-03-13T04:53:22.585+0000] {dag.py:3823} INFO - Setting next_dagrun for aqi_data_pipeline to 2026-03-13 04:00:00+00:00, run_after=2026-03-13 05:00:00+00:00
+[2026-03-13T04:53:22.606+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/aqi_pipeline.py took 0.111 seconds
+[2026-03-13T04:53:52.789+0000] {processor.py:161} INFO - Started process (PID=1312) to work on /opt/airflow/dags/aqi_pipeline.py
+[2026-03-13T04:53:52.790+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/aqi_pipeline.py for tasks to queue
+[2026-03-13T04:53:52.791+0000] {logging_mixin.py:188} INFO - [2026-03-13T04:53:52.791+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/aqi_pipeline.py
+[2026-03-13T04:53:52.830+0000] {processor.py:840} INFO - DAG(s) 'aqi_data_pipeline' retrieved from /opt/airflow/dags/aqi_pipeline.py
+[2026-03-13T04:53:52.862+0000] {logging_mixin.py:188} INFO - [2026-03-13T04:53:52.862+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-13T04:53:52.886+0000] {logging_mixin.py:188} INFO - [2026-03-13T04:53:52.886+0000] {dag.py:3823} INFO - Setting next_dagrun for aqi_data_pipeline to 2026-03-13 04:00:00+00:00, run_after=2026-03-13 05:00:00+00:00
+[2026-03-13T04:53:52.907+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/aqi_pipeline.py took 0.123 seconds
+[2026-03-13T04:54:22.982+0000] {processor.py:161} INFO - Started process (PID=1317) to work on /opt/airflow/dags/aqi_pipeline.py
+[2026-03-13T04:54:22.983+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/aqi_pipeline.py for tasks to queue
+[2026-03-13T04:54:22.984+0000] {logging_mixin.py:188} INFO - [2026-03-13T04:54:22.984+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/aqi_pipeline.py
+[2026-03-13T04:54:23.014+0000] {processor.py:840} INFO - DAG(s) 'aqi_data_pipeline' retrieved from /opt/airflow/dags/aqi_pipeline.py
+[2026-03-13T04:54:23.040+0000] {logging_mixin.py:188} INFO - [2026-03-13T04:54:23.040+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-13T04:54:23.063+0000] {logging_mixin.py:188} INFO - [2026-03-13T04:54:23.063+0000] {dag.py:3823} INFO - Setting next_dagrun for aqi_data_pipeline to 2026-03-13 04:00:00+00:00, run_after=2026-03-13 05:00:00+00:00
+[2026-03-13T04:54:23.084+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/aqi_pipeline.py took 0.106 seconds
+[2026-03-13T04:54:53.887+0000] {processor.py:161} INFO - Started process (PID=1322) to work on /opt/airflow/dags/aqi_pipeline.py
+[2026-03-13T04:54:53.888+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/aqi_pipeline.py for tasks to queue
+[2026-03-13T04:54:53.890+0000] {logging_mixin.py:188} INFO - [2026-03-13T04:54:53.889+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/aqi_pipeline.py
+[2026-03-13T04:54:53.925+0000] {processor.py:840} INFO - DAG(s) 'aqi_data_pipeline' retrieved from /opt/airflow/dags/aqi_pipeline.py
+[2026-03-13T04:54:53.954+0000] {logging_mixin.py:188} INFO - [2026-03-13T04:54:53.954+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-13T04:54:53.978+0000] {logging_mixin.py:188} INFO - [2026-03-13T04:54:53.978+0000] {dag.py:3823} INFO - Setting next_dagrun for aqi_data_pipeline to 2026-03-13 04:00:00+00:00, run_after=2026-03-13 05:00:00+00:00
+[2026-03-13T04:54:54.001+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/aqi_pipeline.py took 0.119 seconds
+[2026-03-13T04:55:24.412+0000] {processor.py:161} INFO - Started process (PID=1327) to work on /opt/airflow/dags/aqi_pipeline.py
+[2026-03-13T04:55:24.413+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/aqi_pipeline.py for tasks to queue
+[2026-03-13T04:55:24.414+0000] {logging_mixin.py:188} INFO - [2026-03-13T04:55:24.414+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/aqi_pipeline.py
+[2026-03-13T04:55:24.450+0000] {processor.py:840} INFO - DAG(s) 'aqi_data_pipeline' retrieved from /opt/airflow/dags/aqi_pipeline.py
+[2026-03-13T04:55:24.479+0000] {logging_mixin.py:188} INFO - [2026-03-13T04:55:24.479+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-13T04:55:24.504+0000] {logging_mixin.py:188} INFO - [2026-03-13T04:55:24.504+0000] {dag.py:3823} INFO - Setting next_dagrun for aqi_data_pipeline to 2026-03-13 04:00:00+00:00, run_after=2026-03-13 05:00:00+00:00
+[2026-03-13T04:55:24.526+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/aqi_pipeline.py took 0.117 seconds
+[2026-03-13T04:55:54.581+0000] {processor.py:161} INFO - Started process (PID=1332) to work on /opt/airflow/dags/aqi_pipeline.py
+[2026-03-13T04:55:54.583+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/aqi_pipeline.py for tasks to queue
+[2026-03-13T04:55:54.584+0000] {logging_mixin.py:188} INFO - [2026-03-13T04:55:54.584+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/aqi_pipeline.py
+[2026-03-13T04:55:54.623+0000] {processor.py:840} INFO - DAG(s) 'aqi_data_pipeline' retrieved from /opt/airflow/dags/aqi_pipeline.py
+[2026-03-13T04:55:54.654+0000] {logging_mixin.py:188} INFO - [2026-03-13T04:55:54.654+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-13T04:55:54.680+0000] {logging_mixin.py:188} INFO - [2026-03-13T04:55:54.680+0000] {dag.py:3823} INFO - Setting next_dagrun for aqi_data_pipeline to 2026-03-13 04:00:00+00:00, run_after=2026-03-13 05:00:00+00:00
+[2026-03-13T04:55:54.701+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/aqi_pipeline.py took 0.125 seconds
+[2026-03-13T04:56:25.708+0000] {processor.py:161} INFO - Started process (PID=1337) to work on /opt/airflow/dags/aqi_pipeline.py
+[2026-03-13T04:56:25.710+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/aqi_pipeline.py for tasks to queue
+[2026-03-13T04:56:25.711+0000] {logging_mixin.py:188} INFO - [2026-03-13T04:56:25.710+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/aqi_pipeline.py
+[2026-03-13T04:56:25.747+0000] {processor.py:840} INFO - DAG(s) 'aqi_data_pipeline' retrieved from /opt/airflow/dags/aqi_pipeline.py
+[2026-03-13T04:56:25.779+0000] {logging_mixin.py:188} INFO - [2026-03-13T04:56:25.779+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-13T04:56:25.805+0000] {logging_mixin.py:188} INFO - [2026-03-13T04:56:25.804+0000] {dag.py:3823} INFO - Setting next_dagrun for aqi_data_pipeline to 2026-03-13 04:00:00+00:00, run_after=2026-03-13 05:00:00+00:00
+[2026-03-13T04:56:25.826+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/aqi_pipeline.py took 0.121 seconds
+[2026-03-13T04:56:56.627+0000] {processor.py:161} INFO - Started process (PID=1342) to work on /opt/airflow/dags/aqi_pipeline.py
+[2026-03-13T04:56:56.629+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/aqi_pipeline.py for tasks to queue
+[2026-03-13T04:56:56.630+0000] {logging_mixin.py:188} INFO - [2026-03-13T04:56:56.629+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/aqi_pipeline.py
+[2026-03-13T04:56:56.667+0000] {processor.py:840} INFO - DAG(s) 'aqi_data_pipeline' retrieved from /opt/airflow/dags/aqi_pipeline.py
+[2026-03-13T04:56:56.699+0000] {logging_mixin.py:188} INFO - [2026-03-13T04:56:56.698+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-13T04:56:56.726+0000] {logging_mixin.py:188} INFO - [2026-03-13T04:56:56.726+0000] {dag.py:3823} INFO - Setting next_dagrun for aqi_data_pipeline to 2026-03-13 04:00:00+00:00, run_after=2026-03-13 05:00:00+00:00
+[2026-03-13T04:56:56.749+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/aqi_pipeline.py took 0.125 seconds
