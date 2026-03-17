@@ -1,0 +1,21 @@
+[2026-03-13T08:00:07.458+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: aqi_data_pipeline.run_aqi_etl scheduled__2026-03-13T07:00:00+00:00 [queued]>
+[2026-03-13T08:00:07.465+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: aqi_data_pipeline.run_aqi_etl scheduled__2026-03-13T07:00:00+00:00 [queued]>
+[2026-03-13T08:00:07.466+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-03-13T08:00:07.479+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): run_aqi_etl> on 2026-03-13 07:00:00+00:00
+[2026-03-13T08:00:07.484+0000] {standard_task_runner.py:60} INFO - Started process 3132 to run task
+[2026-03-13T08:00:07.488+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'aqi_data_pipeline', 'run_aqi_etl', 'scheduled__2026-03-13T07:00:00+00:00', '--job-id', '44', '--raw', '--subdir', 'DAGS_FOLDER/aqi_pipeline.py', '--cfg-path', '/tmp/tmpksa0fmlr']
+[2026-03-13T08:00:07.491+0000] {standard_task_runner.py:88} INFO - Job 44: Subtask run_aqi_etl
+[2026-03-13T08:00:07.555+0000] {task_command.py:423} INFO - Running <TaskInstance: aqi_data_pipeline.run_aqi_etl scheduled__2026-03-13T07:00:00+00:00 [running]> on host 97750d40b4d7
+[2026-03-13T08:00:07.628+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='aqi_data_pipeline' AIRFLOW_CTX_TASK_ID='run_aqi_etl' AIRFLOW_CTX_EXECUTION_DATE='2026-03-13T07:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-03-13T07:00:00+00:00'
+[2026-03-13T08:00:07.629+0000] {logging_mixin.py:188} INFO - Starting AQI ETL pipeline...
+[2026-03-13T08:00:07.629+0000] {logging_mixin.py:188} INFO - Connecting to PostgreSQL...
+[2026-03-13T08:00:07.632+0000] {logging_mixin.py:188} INFO - Connected to PostgreSQL
+[2026-03-13T08:00:07.633+0000] {logging_mixin.py:188} INFO - Fetching AQI data for Hanoi...
+[2026-03-13T08:00:08.017+0000] {logging_mixin.py:188} INFO - Inserted AQI data for Hanoi
+[2026-03-13T08:00:08.017+0000] {logging_mixin.py:188} INFO - Fetching AQI data for Lien Chieu...
+[2026-03-13T08:00:08.192+0000] {logging_mixin.py:188} INFO - Inserted AQI data for Lien Chieu
+[2026-03-13T08:00:08.193+0000] {logging_mixin.py:188} INFO - AQI ETL pipeline finished
+[2026-03-13T08:00:08.193+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-03-13T08:00:08.201+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=aqi_data_pipeline, task_id=run_aqi_etl, execution_date=20260313T070000, start_date=20260313T080007, end_date=20260313T080008
+[2026-03-13T08:00:08.223+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-03-13T08:00:08.238+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
